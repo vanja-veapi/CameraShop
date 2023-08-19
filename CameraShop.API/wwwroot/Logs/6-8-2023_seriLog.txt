@@ -1,0 +1,3 @@
+8/6/2023 11:28:31 AM||||||SelectStockUseCase|||0|||{"Id":0,"Quantity":0,"StockPlaceID":0}
+8/6/2023 11:28:47 AM||||||SelectStockUseCase|||0|||{"Id":0,"Quantity":0,"StockPlaceID":0}
+8/6/2023 11:29:57 AM||||||SelectStockUseCase|||0|||{"Id":0,"Quantity":0,"StockPlaceID":0}

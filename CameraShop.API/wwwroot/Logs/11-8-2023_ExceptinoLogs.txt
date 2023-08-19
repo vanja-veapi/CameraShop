@@ -1,0 +1,35 @@
+8/11/2023 12:59:24 PM|||Dummy|||RemoveItemFromCartUseCase|||30|||{"ItemId":1,"QuantityToRemove":3}
+8/11/2023 12:59:50 PM|||Dummy|||PutItemInCartUseCase|||28|||{"ItemId":3,"Quantity":5}
+8/11/2023 1:00:28 PM|||Dummy|||PutItemInCartUseCase|||28|||{"ItemId":3,"Quantity":5}
+8/11/2023 1:00:32 PM|||Dummy|||PutItemInCartUseCase|||28|||{"ItemId":3,"Quantity":5}
+8/11/2023 1:06:15 PM|||Dummy|||PutItemInCartUseCase|||28|||{"ItemId":3,"Quantity":5}
+8/11/2023 1:08:37 PM|||Dummy|||PutItemInCartUseCase|||28|||{"ItemId":3,"Quantity":5}
+8/11/2023 1:30:52 PM|||Dummy|||PlaceOrderUseCase|||31|||{"Id":1}
+8/11/2023 1:32:11 PM|||Dummy|||PlaceOrderUseCase|||31|||{"Id":1}
+8/11/2023 2:23:37 PM|||Anonymous user|||SelectAllBrandsUseCase|||5|||{"Id":null,"UseCaseIdentifier":null,"Name":null}
+8/11/2023 2:23:46 PM|||Anonymous user|||SelectAllBrandsUseCase|||5|||{"Id":null,"UseCaseIdentifier":null,"Name":null}
+8/11/2023 2:24:33 PM|||Anonymous user|||SelectAllBrandsUseCase|||5|||{"Id":null,"UseCaseIdentifier":null,"Name":null}
+8/11/2023 2:28:03 PM|||Anonymous user|||SelectAllBrandsUseCase|||5|||{"Id":null,"UseCaseIdentifier":null,"Name":null}
+8/11/2023 2:30:07 PM|||Anonymous user|||CreateNewUserUseCase|||22|||{"Username":"KorisnikPera","Password":"pera1234","Email":"korisnil.pera@gmail.com","FirstName":"Pera","LastName":"Peric","Address":"Peroslav@gmail.com","PhoneNumber":"+381641231231"}
+8/11/2023 2:30:26 PM|||Anonymous user|||CreateNewUserUseCase|||22|||{"Username":"KorisnikPera","Password":"Pera1234","Email":"korisnil.pera@gmail.com","FirstName":"Pera","LastName":"Peric","Address":"Peroslav@gmail.com","PhoneNumber":"+381641231231"}
+8/11/2023 2:31:25 PM|||Anonymous user|||CreateNewUserUseCase|||22|||{"Username":"KorisnikPera","Password":"Pera1234","Email":"korisnil.pera@gmail.com","FirstName":"Pera","LastName":"Peric","Address":"Peroslav@gmail.com","PhoneNumber":"+381641231231"}
+8/11/2023 2:32:31 PM|||Anonymous user|||CreateNewUserUseCase|||22|||{"Username":"KorisnikPera","Password":"Pera1234","Email":"korisnil.pera@gmail.com","FirstName":"Pera","LastName":"Peric","Address":"Peroslav@gmail.com","PhoneNumber":"+381641231231"}
+Validation failed: 
+ -- Username: Username is already taken Severity: Error
+ -- Email: Email address is already taken Severity: Error|||8/11/2023 2:32:45 PM|||Anonymous user|||CreateNewUserUseCase|||22|||{"Username":"KorisnikPera","Password":"Pera1234","Email":"korisnil.pera@gmail.com","FirstName":"Pera","LastName":"Peric","Address":"Peroslav@gmail.com","PhoneNumber":"+381641231231"}
+An error occurred while updating the entries. See the inner exception for details.|||8/11/2023 2:33:07 PM|||Anonymous user|||CreateNewUserUseCase|||22|||{"Username":"KorisnikPeraa","Password":"Pera1234","Email":"korisnik.pera@gmail.com","FirstName":"Pera","LastName":"Peric","Address":"Peroslav@gmail.com","PhoneNumber":"+381641231231"}
+An error occurred while updating the entries. See the inner exception for details.|||8/11/2023 2:40:01 PM|||Anonymous user|||ActivateUserAccountUseCase|||23|||{"ActivisionId":"bb21a26301198c657a25e72f7b0f514921b17981c5b606e6efdd7fe9c6ff31d3"}
+User Anonymous user has tried to execute PutItemInCartUseCase without being authorized to do so.|||8/11/2023 2:41:57 PM|||Anonymous user|||PutItemInCartUseCase|||28|||{"ItemId":3,"Quantity":5}
+User Anonymous user has tried to execute PutItemInCartUseCase without being authorized to do so.|||8/11/2023 2:43:16 PM|||Anonymous user|||PutItemInCartUseCase|||28|||{"ItemId":3,"Quantity":5}
+Validation failed: 
+ -- IdStockPlace: Given id does not exist Severity: Error
+ -- InStocks[0].IdCamera: Camera id is not found Severity: Error|||8/11/2023 3:56:23 PM|||Pera Admin|||PlaceStockUseCase|||18|||{"IdStockPlace":0,"InStocks":[{"IdCamera":3,"Quantity":5}]}
+Validation failed: 
+ -- IdStockPlace: Given id does not exist Severity: Error
+ -- InStocks[0].IdCamera: Camera id is not found Severity: Error|||8/11/2023 3:56:32 PM|||Pera Admin|||PlaceStockUseCase|||18|||{"IdStockPlace":0,"InStocks":[{"IdCamera":1,"Quantity":5}]}
+Validation failed: 
+ -- IdStockPlace: Given id does not exist Severity: Error|||8/11/2023 3:56:47 PM|||Pera Admin|||PlaceStockUseCase|||18|||{"IdStockPlace":0,"InStocks":[{"IdCamera":13,"Quantity":5}]}
+An error occurred while updating the entries. See the inner exception for details.|||8/11/2023 3:57:28 PM|||Pera Admin|||PlaceStockUseCase|||18|||{"IdStockPlace":7,"InStocks":[{"IdCamera":13,"Quantity":5}]}
+An error occurred while updating the entries. See the inner exception for details.|||8/11/2023 3:57:37 PM|||Pera Admin|||PlaceStockUseCase|||18|||{"IdStockPlace":7,"InStocks":[{"IdCamera":13,"Quantity":5}]}
+User Pera Korisnik has tried to execute ActivateUserAccountUseCase without being authorized to do so.|||8/11/2023 4:04:10 PM|||Pera Korisnik|||ActivateUserAccountUseCase|||23|||{"ActivisionId":"asd"}
+User Pera Korisnik has tried to execute PlaceStockUseCase without being authorized to do so.|||8/11/2023 4:04:23 PM|||Pera Korisnik|||PlaceStockUseCase|||18|||{"IdStockPlace":6,"InStocks":[{"IdCamera":1,"Quantity":0}]}

@@ -1,0 +1,13 @@
+8/10/2023 9:36:49 AM|||Dummy|||AddCameraDiscountUseCase|||8|||{"IdCamera":1005,"DiscountPercentage":15.0,"StartsOn":"2023-10-10T00:00:00","EndsOn":"2023-10-11T00:00:00"}
+8/10/2023 9:37:14 AM|||Dummy|||SelectCamerasUseCase|||11|||{"Id":null,"Name":null,"MegaPixels":null,"VideoResolution":null,"WifiSupport":null,"BluetoothSupport":null,"LensMount":null,"PriceRangeLower":null,"PriceRangeUpper":null,"SensorTypeId":null,"BrandId":null,"StockPlaceId":null,"OnDiscount":null,"PerPage":6,"Page":1}
+8/10/2023 9:46:31 AM|||Dummy|||AddCameraDiscountUseCase|||8|||{"IdCamera":1004,"DiscountPercentage":15.0,"StartsOn":"2023-08-11T00:00:00","EndsOn":"2023-08-12T00:00:00"}
+8/10/2023 9:46:56 AM|||Dummy|||RemoveCameraUseCase|||9|||{"Id":1005}
+8/10/2023 9:48:09 AM|||Dummy|||RemoveCameraUseCase|||9|||{"Id":1005}
+8/10/2023 9:49:20 AM|||Dummy|||RemoveCameraDiscountUseCase|||10|||{"Id":2003}
+8/10/2023 10:44:22 AM|||Dummy|||RemoveSensorTypeUseCase|||14|||{"Id":4}
+8/10/2023 11:51:17 AM|||Dummy|||NewStockPlaceUseCase|||17|||{"StockName":"Stockname","Longitude":0.0,"Latitude":0.0,"inStocks":[{"IdCamera":3,"Quantity":2},{"IdCamera":4,"Quantity":5}]}
+8/10/2023 11:55:26 AM|||Dummy|||NewStockPlaceUseCase|||17|||{"StockName":"Stockname","Longitude":0.0,"Latitude":0.0,"inStocks":[{"IdCamera":3,"Quantity":2},{"IdCamera":4,"Quantity":5}]}
+8/10/2023 11:57:28 AM|||Dummy|||NewStockPlaceUseCase|||17|||{"StockName":"Stockname","Longitude":0.0,"Latitude":0.0,"inStocks":[{"IdCamera":3,"Quantity":2}]}
+8/10/2023 11:58:27 AM|||Dummy|||NewStockPlaceUseCase|||17|||{"StockName":"string","Longitude":0.0,"Latitude":0.0,"inStocks":[{"IdCamera":0,"Quantity":0}]}
+8/10/2023 7:24:26 PM|||Dummy|||CreateNewUserUseCase|||22|||{"Username":"asd","Password":"asd","Email":"asd","FirstName":"asd","LastName":"asd","Address":"asd","PhoneNumber":"asd"}
+8/10/2023 8:03:05 PM|||Dummy|||PutItemInCartUseCase|||28|||{"ItemId":1004,"Quantity":2}

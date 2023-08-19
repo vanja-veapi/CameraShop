@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DataTransfer\**" />
+    <Compile Remove="UseCases\Commands\**" />
+    <Compile Remove="UseCases\Queries\**" />
+    <EmbeddedResource Remove="DataTransfer\**" />
+    <EmbeddedResource Remove="UseCases\Commands\**" />
+    <EmbeddedResource Remove="UseCases\Queries\**" />
+    <None Remove="DataTransfer\**" />
+    <None Remove="UseCases\Commands\**" />
+    <None Remove="UseCases\Queries\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CameraShop.Domain\CameraShop.Domain.csproj" />
+    <ProjectReference Include="..\CameraShop.EfDataAccess\CameraShop.EfDataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
